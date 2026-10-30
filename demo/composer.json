@@ -1,0 +1,27 @@
+{
+    "name": "survos/duckdb-api-demo",
+    "type": "project",
+    "license": "MIT",
+    "description": "Standalone named-source DuckDB API example.",
+    "require": {
+        "php": "^8.5",
+        "survos/duckdb-api-bundle": "^2.45",
+        "survos/duckdb-bundle": "^2.45",
+        "symfony/framework-bundle": "^8.2@dev",
+        "symfony/console": "^8.2@dev",
+        "symfony/yaml": "^8.2@dev",
+        "symfony/property-info": "^8.2@dev",
+        "symfony/validator": "^8.2@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Demo\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "post-install-cmd": "@php bin/console demo:prepare",
+        "post-update-cmd": "@php bin/console demo:prepare"
+    }
+}

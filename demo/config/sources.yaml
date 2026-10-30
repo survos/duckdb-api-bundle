@@ -1,0 +1,9 @@
+survos_duck_db:
+    sources:
+        example:
+            uri: '%kernel.project_dir%/var/example.duckdb'
+
+survos_duck_db_api:
+    source_parameter: sourceKey
+    resources:
+        example: [Demo\ApiResource\Product]

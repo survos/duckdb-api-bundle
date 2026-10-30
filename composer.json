@@ -16,10 +16,15 @@
         "api-platform/core": "^5.0",
         "survos/kit-bundle": "^2.36",
         "symfony/framework-bundle": "^8.1",
-        "symfony/serializer": "^8.1"
+        "symfony/serializer": "^8.1",
+        "survos/duckdb-bundle": "^2.45"
     },
     "require-dev": {
-        "phpunit/phpunit": "^13.0"
+        "phpunit/phpunit": "^13.0",
+        "symfony/console": "^8.1",
+        "symfony/yaml": "^8.1",
+        "symfony/validator": "^8.1",
+        "symfony/property-info": "^8.1"
     },
     "autoload": {
         "psr-4": {
