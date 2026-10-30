@@ -2,3 +2,6 @@
 /var/
 /composer.lock
 /.env.local
+
+/config/reference.php
+/config/schema.json
